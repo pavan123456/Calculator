@@ -1,0 +1,38 @@
+.container{
+    height:cover;
+    width:230px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: 5px solid lightseagreen;
+    padding: 1%;
+    
+}
+#inputbar{
+    height: 40px;
+    width: 220px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+}
+.but{
+    height:50px;
+    width:50px;
+    border: none;
+    color: black;
+    background-color: aqua;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-top: 2px;
+
+}
+.mid{
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.but:hover{
+    background-color: cornflowerblue;
+}
